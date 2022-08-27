@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Start counter */
+.counter-box {
+  background: rgb(10, 10, 10);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 50px; 
+  padding-top :20px;
+}
+.counter-box p {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+
+.button-box  button {
+
+  background-color: rgba(255, 38, 0, 0.664);
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  margin: 5px 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.counter-box span button {
+  background-color: rgba(51, 255, 0, 0.664);
+  padding: 10px 20px;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  margin: 0px 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.btn-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center
+}
+
+
+.btn-container span{
+ 
+  background: #000;
+  margin: 0px 10px;
+}
+ .btn-container span input {
+  width: 50px;
+  padding: 8px 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-right: 0px;
+}
+
+
+
+
+/* End counter */
